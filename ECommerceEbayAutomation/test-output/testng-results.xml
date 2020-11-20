@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="18" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Functional Testing" duration-ms="56418" started-at="2020-11-02T10:00:31Z" finished-at="2020-11-02T10:01:28Z">
+    <groups>
+    </groups>
+    <test name="mobiles details-chromeTest" duration-ms="29253" started-at="2020-11-02T10:00:31Z" finished-at="2020-11-02T10:01:00Z">
+      <class name="testScenarios.EbayMobilesAutomation">
+        <test-method status="PASS" signature="driverConfig(java.lang.String)[pri:0, instance:testScenarios.EbayMobilesAutomation@27efef64]" name="driverConfig" is-config="true" duration-ms="11376" started-at="2020-11-02T15:30:31Z" finished-at="2020-11-02T15:30:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method status="PASS" signature="testCaseReadExl()[pri:1, instance:testScenarios.EbayMobilesAutomation@27efef64]" name="testCaseReadExl" duration-ms="453" started-at="2020-11-02T15:30:43Z" finished-at="2020-11-02T15:30:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseReadExl -->
+        <test-method status="PASS" signature="tcElectronicsCategory()[pri:2, instance:testScenarios.EbayMobilesAutomation@27efef64]" name="tcElectronicsCategory" duration-ms="7248" started-at="2020-11-02T15:30:43Z" finished-at="2020-11-02T15:30:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcElectronicsCategory -->
+        <test-method status="PASS" signature="tcPhoneAccessoriesCategory()[pri:3, instance:testScenarios.EbayMobilesAutomation@27efef64]" name="tcPhoneAccessoriesCategory" duration-ms="1953" started-at="2020-11-02T15:30:50Z" finished-at="2020-11-02T15:30:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcPhoneAccessoriesCategory -->
+        <test-method status="PASS" signature="tcMobilesCategory()[pri:4, instance:testScenarios.EbayMobilesAutomation@27efef64]" name="tcMobilesCategory" duration-ms="2211" started-at="2020-11-02T15:30:52Z" finished-at="2020-11-02T15:30:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcMobilesCategory -->
+        <test-method status="PASS" signature="minPriceSet()[pri:5, instance:testScenarios.EbayMobilesAutomation@27efef64]" name="minPriceSet" duration-ms="199" started-at="2020-11-02T15:30:55Z" finished-at="2020-11-02T15:30:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minPriceSet -->
+        <test-method status="PASS" signature="maxPriceSet()[pri:6, instance:testScenarios.EbayMobilesAutomation@27efef64]" name="maxPriceSet" duration-ms="2236" started-at="2020-11-02T15:30:55Z" finished-at="2020-11-02T15:30:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxPriceSet -->
+        <test-method status="PASS" signature="sortByTime()[pri:7, instance:testScenarios.EbayMobilesAutomation@27efef64]" name="sortByTime" duration-ms="1836" started-at="2020-11-02T15:30:57Z" finished-at="2020-11-02T15:30:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByTime -->
+        <test-method status="PASS" signature="toExcelWrite(java.lang.String)[pri:8, instance:testScenarios.EbayMobilesAutomation@27efef64]" name="toExcelWrite" duration-ms="943" started-at="2020-11-02T15:30:59Z" finished-at="2020-11-02T15:31:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toExcelWrite -->
+        <test-method status="PASS" signature="screenShot()[pri:9, instance:testScenarios.EbayMobilesAutomation@27efef64]" name="screenShot" duration-ms="680" started-at="2020-11-02T15:31:00Z" finished-at="2020-11-02T15:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="driverExit()[pri:0, instance:testScenarios.EbayMobilesAutomation@27efef64]" name="driverExit" is-config="true" duration-ms="88" started-at="2020-11-02T15:31:00Z" finished-at="2020-11-02T15:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+      </class> <!-- testScenarios.EbayMobilesAutomation -->
+    </test> <!-- mobiles details-chromeTest -->
+    <test name="mobiles details-operaTest" duration-ms="27122" started-at="2020-11-02T10:01:01Z" finished-at="2020-11-02T10:01:28Z">
+      <class name="testScenarios.EbayMobilesAutomation">
+        <test-method status="PASS" signature="driverConfig(java.lang.String)[pri:0, instance:testScenarios.EbayMobilesAutomation@5442a311]" name="driverConfig" is-config="true" duration-ms="13897" started-at="2020-11-02T15:31:01Z" finished-at="2020-11-02T15:31:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method status="PASS" signature="testCaseReadExl()[pri:1, instance:testScenarios.EbayMobilesAutomation@5442a311]" name="testCaseReadExl" duration-ms="26" started-at="2020-11-02T15:31:14Z" finished-at="2020-11-02T15:31:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseReadExl -->
+        <test-method status="PASS" signature="tcElectronicsCategory()[pri:2, instance:testScenarios.EbayMobilesAutomation@5442a311]" name="tcElectronicsCategory" duration-ms="3430" started-at="2020-11-02T15:31:14Z" finished-at="2020-11-02T15:31:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcElectronicsCategory -->
+        <test-method status="PASS" signature="tcPhoneAccessoriesCategory()[pri:3, instance:testScenarios.EbayMobilesAutomation@5442a311]" name="tcPhoneAccessoriesCategory" duration-ms="2198" started-at="2020-11-02T15:31:18Z" finished-at="2020-11-02T15:31:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcPhoneAccessoriesCategory -->
+        <test-method status="PASS" signature="tcMobilesCategory()[pri:4, instance:testScenarios.EbayMobilesAutomation@5442a311]" name="tcMobilesCategory" duration-ms="2067" started-at="2020-11-02T15:31:20Z" finished-at="2020-11-02T15:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcMobilesCategory -->
+        <test-method status="PASS" signature="minPriceSet()[pri:5, instance:testScenarios.EbayMobilesAutomation@5442a311]" name="minPriceSet" duration-ms="173" started-at="2020-11-02T15:31:22Z" finished-at="2020-11-02T15:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minPriceSet -->
+        <test-method status="PASS" signature="maxPriceSet()[pri:6, instance:testScenarios.EbayMobilesAutomation@5442a311]" name="maxPriceSet" duration-ms="1767" started-at="2020-11-02T15:31:22Z" finished-at="2020-11-02T15:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxPriceSet -->
+        <test-method status="PASS" signature="sortByTime()[pri:7, instance:testScenarios.EbayMobilesAutomation@5442a311]" name="sortByTime" duration-ms="1679" started-at="2020-11-02T15:31:24Z" finished-at="2020-11-02T15:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByTime -->
+        <test-method status="PASS" signature="toExcelWrite(java.lang.String)[pri:8, instance:testScenarios.EbayMobilesAutomation@5442a311]" name="toExcelWrite" duration-ms="937" started-at="2020-11-02T15:31:26Z" finished-at="2020-11-02T15:31:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toExcelWrite -->
+        <test-method status="PASS" signature="screenShot()[pri:9, instance:testScenarios.EbayMobilesAutomation@5442a311]" name="screenShot" duration-ms="572" started-at="2020-11-02T15:31:27Z" finished-at="2020-11-02T15:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="driverExit()[pri:0, instance:testScenarios.EbayMobilesAutomation@5442a311]" name="driverExit" is-config="true" duration-ms="365" started-at="2020-11-02T15:31:27Z" finished-at="2020-11-02T15:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+      </class> <!-- testScenarios.EbayMobilesAutomation -->
+    </test> <!-- mobiles details-operaTest -->
+  </suite> <!-- Functional Testing -->
+</testng-results>

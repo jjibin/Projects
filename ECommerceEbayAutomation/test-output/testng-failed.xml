@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional Testing]">
+  <test name="mobiles details-operaTest(failed)">
+    <parameter name="browser" value="opera"/>
+    <classes>
+      <class name="testScenarios.EbayMobilesAutomation">
+        <methods>
+          <include name="testCaseReadExl"/>
+          <include name="maxPriceSet"/>
+          <include name="minPriceSet"/>
+          <include name="tcMobilesCategory"/>
+          <include name="sortByTime"/>
+          <include name="driverConfig"/>
+          <include name="driverConfig"/>
+          <include name="driverExit"/>
+          <include name="toExcelWrite" invocation-numbers="0"/>
+          <include name="tcPhoneAccessoriesCategory"/>
+          <include name="screenShot"/>
+          <include name="tcElectronicsCategory"/>
+        </methods>
+      </class> <!-- testScenarios.EbayMobilesAutomation -->
+    </classes>
+  </test> <!-- mobiles details-operaTest(failed) -->
+</suite> <!-- Failed suite [Functional Testing] -->

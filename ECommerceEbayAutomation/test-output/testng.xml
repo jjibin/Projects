@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Functional Testing" parallel="none">
+
+  <test name="mobiles details-chromeTest">
+ 
+  <parameter name="browser" value="chrome"/>
+
+    <classes>
+
+      <class name="testScenarios.EbayMobilesAutomation"/>
+
+    </classes>
+
+  </test> <!-- Test -->
+
+  <test name="mobiles details-operaTest">
+
+  <parameter name="browser" value="opera" />
+
+    <classes>
+
+      <class name="testScenarios.EbayMobilesAutomation"/>
+
+    </classes>
+
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
